@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* RootRollerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* RootRollerApp.swift */; };
+		A10000000000000000000002 /* CommandToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* CommandToken.swift */; };
+		A10000000000000000000003 /* CLIChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* CLIChallenge.swift */; };
+		A10000000000000000000004 /* JackpotHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* JackpotHubView.swift */; };
+		A10000000000000000000005 /* TheCLICrisisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* TheCLICrisisView.swift */; };
+		A10000000000000000000006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* Assets.xcassets */; };
+		A10000000000000000000008 /* RootRollerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* RootRollerStyle.swift */; };
+		A10000000000000000000009 /* SubnetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* SubnetGame.swift */; };
+		A10000000000000000000010 /* SubnetSlotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000010 /* SubnetSlotsView.swift */; };
+		B10000000000000000000001 = {isa = PBXBuildFile; fileRef = B20000000000000000000001; };
+		A10000000000000000000011 /* MiniGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* MiniGame.swift */; };
+		A10000000000000000000012 /* ReelMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* ReelMotion.swift */; };
+		A10000000000000000000013 /* TactileReelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000013 /* TactileReelView.swift */; };
+		A10000000000000000000014 /* ArcadeGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000014 /* ArcadeGames.swift */; };
+		A10000000000000000000015 /* ArcadeComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000015 /* ArcadeComponents.swift */; };
+		A10000000000000000000016 /* PacketRushView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000016 /* PacketRushView.swift */; };
+		A10000000000000000000017 /* PortPatrolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000017 /* PortPatrolView.swift */; };
+		A10000000000000000000018 /* CableRescueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000018 /* CableRescueView.swift */; };
+		A10000000000000000000019 /* LoopBreakerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000019 /* LoopBreakerView.swift */; };
+		A10000000000000000000020 /* DHCPDashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000020 /* DHCPDashView.swift */; };
+		A10000000000000000000021 /* HandshakeHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000021 /* HandshakeHeroView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* RootRollerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRollerApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* CommandToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandToken.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* CLIChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLIChallenge.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* JackpotHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JackpotHubView.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* TheCLICrisisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCLICrisisView.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20000000000000000000007 /* RootRoller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RootRoller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000008 /* RootRollerStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRollerStyle.swift; sourceTree = "<group>"; };
+		A20000000000000000000009 /* SubnetGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubnetGame.swift; sourceTree = "<group>"; };
+		A20000000000000000000010 /* SubnetSlotsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubnetSlotsView.swift; sourceTree = "<group>"; };
+		B20000000000000000000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRollerUITests.swift; sourceTree = "<group>"; };
+		B20000000000000000000002 = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = RootRollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000011 /* MiniGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGame.swift; sourceTree = "<group>"; };
+		A20000000000000000000012 /* ReelMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelMotion.swift; sourceTree = "<group>"; };
+		A20000000000000000000013 /* TactileReelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TactileReelView.swift; sourceTree = "<group>"; };
+		A20000000000000000000014 /* ArcadeGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeGames.swift; sourceTree = "<group>"; };
+		A20000000000000000000015 /* ArcadeComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeComponents.swift; sourceTree = "<group>"; };
+		A20000000000000000000016 /* PacketRushView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketRushView.swift; sourceTree = "<group>"; };
+		A20000000000000000000017 /* PortPatrolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortPatrolView.swift; sourceTree = "<group>"; };
+		A20000000000000000000018 /* CableRescueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CableRescueView.swift; sourceTree = "<group>"; };
+		A20000000000000000000019 /* LoopBreakerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopBreakerView.swift; sourceTree = "<group>"; };
+		A20000000000000000000020 /* DHCPDashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHCPDashView.swift; sourceTree = "<group>"; };
+		A20000000000000000000021 /* HandshakeHeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandshakeHeroView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B40000000000000000000001 = {isa = PBXGroup; children = (B20000000000000000000001,); path = Tests; sourceTree = "<group>"; };
+		A40000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A40000000000000000000002 /* RootRoller */,
+				B40000000000000000000001 /* Tests */,
+				A40000000000000000000005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A40000000000000000000002 /* RootRoller */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000001 /* RootRollerApp.swift */,
+				A20000000000000000000008 /* RootRollerStyle.swift */,
+				A40000000000000000000003 /* Models */,
+				A40000000000000000000004 /* Views */,
+				A20000000000000000000006 /* Assets.xcassets */,
+			);
+			path = RootRoller;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000002 /* CommandToken.swift */,
+				A20000000000000000000003 /* CLIChallenge.swift */,
+				A20000000000000000000009 /* SubnetGame.swift */,
+				A20000000000000000000012 /* ReelMotion.swift */,
+				A20000000000000000000011 /* MiniGame.swift */,
+				A20000000000000000000014 /* ArcadeGames.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000004 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000004 /* JackpotHubView.swift */,
+				A20000000000000000000005 /* TheCLICrisisView.swift */,
+				A20000000000000000000010 /* SubnetSlotsView.swift */,
+				A20000000000000000000013 /* TactileReelView.swift */,
+				A20000000000000000000021 /* HandshakeHeroView.swift */,
+				A20000000000000000000020 /* DHCPDashView.swift */,
+				A20000000000000000000019 /* LoopBreakerView.swift */,
+				A20000000000000000000018 /* CableRescueView.swift */,
+				A20000000000000000000017 /* PortPatrolView.swift */,
+				A20000000000000000000016 /* PacketRushView.swift */,
+				A20000000000000000000015 /* ArcadeComponents.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000007 /* RootRoller.app */,
+				B20000000000000000000002 /* RootRollerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* RootRoller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90000000000000000000002 /* Build configuration list for PBXNativeTarget "RootRoller" */;
+			buildPhases = (
+				A60000000000000000000001 /* Sources */,
+				A30000000000000000000001 /* Frameworks */,
+				A70000000000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RootRoller;
+			productName = RootRoller;
+			productReference = A20000000000000000000007 /* RootRoller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B50000000000000000000001 = {isa = PBXNativeTarget; buildConfigurationList = B90000000000000000000001; buildPhases = (B60000000000000000000001,); buildRules = (); dependencies = (BB0000000000000000000001,); name = RootRollerUITests; productName = RootRollerUITests; productReference = B20000000000000000000002; productType = "com.apple.product-type.bundle.ui-testing"; };
+/* End PBXNativeTarget section */
+/* Begin PBXContainerItemProxy section */
+		BC0000000000000000000001 = {isa = PBXContainerItemProxy; containerPortal = A80000000000000000000001; proxyType = 1; remoteGlobalIDString = A50000000000000000000001; remoteInfo = RootRoller; };
+/* End PBXContainerItemProxy section */
+/* Begin PBXTargetDependency section */
+		BB0000000000000000000001 = {isa = PBXTargetDependency; target = A50000000000000000000001; targetProxy = BC0000000000000000000001; };
+/* End PBXTargetDependency section */
+
+/* Begin PBXProject section */
+		A80000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A50000000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = A90000000000000000000001 /* Build configuration list for PBXProject "RootRoller" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A40000000000000000000001;
+			productRefGroup = A40000000000000000000005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50000000000000000000001 /* RootRoller */,
+				B50000000000000000000001 /* RootRollerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A70000000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000006 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A60000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* RootRollerApp.swift in Sources */,
+				A10000000000000000000002 /* CommandToken.swift in Sources */,
+				A10000000000000000000003 /* CLIChallenge.swift in Sources */,
+				A10000000000000000000004 /* JackpotHubView.swift in Sources */,
+				A10000000000000000000005 /* TheCLICrisisView.swift in Sources */,
+				A10000000000000000000010 /* SubnetSlotsView.swift in Sources */,
+				A10000000000000000000009 /* SubnetGame.swift in Sources */,
+				A10000000000000000000008 /* RootRollerStyle.swift in Sources */,
+				A10000000000000000000013 /* TactileReelView.swift in Sources */,
+				A10000000000000000000012 /* ReelMotion.swift in Sources */,
+				A10000000000000000000011 /* MiniGame.swift in Sources */,
+				A10000000000000000000021 /* HandshakeHeroView.swift in Sources */,
+				A10000000000000000000020 /* DHCPDashView.swift in Sources */,
+				A10000000000000000000019 /* LoopBreakerView.swift in Sources */,
+				A10000000000000000000018 /* CableRescueView.swift in Sources */,
+				A10000000000000000000017 /* PortPatrolView.swift in Sources */,
+				A10000000000000000000016 /* PacketRushView.swift in Sources */,
+				A10000000000000000000015 /* ArcadeComponents.swift in Sources */,
+				A10000000000000000000014 /* ArcadeGames.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60000000000000000000001 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (B10000000000000000000001,); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA0000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA0000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA0000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KAWZ5T72J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Root Roller";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hmze.RootRoller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA0000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KAWZ5T72J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Root Roller";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hmze.RootRoller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA0000000000000000000001 = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.hmze.RootRollerUITests; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_TARGET_NAME = RootRoller; }; name = Debug; };
+		BA0000000000000000000002 = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.hmze.RootRollerUITests; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_TARGET_NAME = RootRoller; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A90000000000000000000001 /* Build configuration list for PBXProject "RootRoller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000001 /* Debug */,
+				AA0000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90000000000000000000002 /* Build configuration list for PBXNativeTarget "RootRoller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000003 /* Debug */,
+				AA0000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B90000000000000000000001 = {isa = XCConfigurationList; buildConfigurations = (BA0000000000000000000001, BA0000000000000000000002,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = A80000000000000000000001 /* Project object */;
+}
